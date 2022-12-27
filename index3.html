@@ -3,38 +3,42 @@
     <head>
         <title>Mon Portfolio</title>
         <meta charset="utf-8">
+        <link rel="stylesheet" href="/Users/mac/Desktop/Portfolio/style3.css">
 
     </head>
     <body>
+        <div id="header">
         <header>
-            <nav>
-            <ul>
-                <li> <a href="#home">ACCEUIL</a></li>
-                <li> <a href="#about">À propos</a></li>
-                <li> <a href="#work">Travail</a> </li>
-                <li> <a href="#resume">CV</a> </li>
-                <li> <a href="#contact">CONTACT</a> </li>
+            <nav class="navbar">
+            <ul class="menu">
+                <li> <a href="#home"><p class="navB1">Acceuil</p></a></li>
+                <li> <a href="#about"><p class="navB2">À propos</p></a></li>
+                <li> <a href="#work"><p class="navB3">Travail</p></a> </li>
+                <li> <a href="#resume"><p class="navB4">CV</p></a> </li>
+                <li> <a href="#contact"><p class="navB5">CONTACT</p></a> </li>
             </ul>
         </nav>
         </header>
+        </div>
         <hr>
         <br><br><br><br><br><br><br><br><br><br><br>
 
-        <div>
-        <h1>Bonjour je m'appelle Adiouma Ousmane DIALLO, Je suis Développeur Web.
+        <div id="acceuil">
+        <h1 class="Bonjour">Bonjour, je m'appelle Adiouma Ousmane DIALLO, Je suis Développeur Web.
             <br>
-           <em><mark>HTML</mark> / <mark>CSS</mark> / <mark>JavaScript</mark></em> </h1>
-           <p>Besoin de mes services,</p> 
-           <button>Me contactez !</button>
+           <em><mark><abbr title="Hypertext">HTML</abbr></mark> / <mark><abbr title="Cascading style sheets">CSS</abbr></mark> / <mark>JavaScript</mark></em> </h1>
+           <p class="Bonjour"><em>Besoin de mes services,</em></p> 
+           <button class="mecontactez"><a class="mailto1" href="mailto:juniorpro0203@gmail.com"><strong>Me contactez !</strong></a></button>
            </div>
 
            <br> <br> <br> <br> <br> <br> <br> <br><br><br><br><br> <br> <br> <br><br><br>
            <hr>
     
         <form>
-            <div> <label for="about"><em><a name="about"></a><h2>À Propos de moi</h2></em></label>
+            <label for="about"><em><a name="about"></a><h2>À Propos de moi</h2></em></label>
                 <br> <br>
-            <p>Développeur full stack certifié Gomycode, avec 2 années d'expériences dans le développement de projets web. J'ai appris à coder dans divers langages informatiques et ai créé des projets personnels, dont <a href="https://www.anepcompany.com/fr/accueil-m1.html">un site pour l'exportation de fruits et légumes exotiques</a>. Polyvalent, je maitrise les différentes étapes techniques de la création de site web; de la compréhension des besoins de l'utlisateurs, au développement front-end et back-end en passant par la maintenance.
+                <div id="about"> 
+            <p class="about">Développeur full stack certifié Gomycode, avec 2 années d'expériences dans le développement de projets web. J'ai appris à coder dans divers langages informatiques et ai créé des projets personnels, dont <a class="liendanstexte"  href="https://www.anepcompany.com/fr/accueil-m1.html" target="_blank">un site pour l'exportation de fruits et légumes exotiques</a>. Polyvalent, je maitrise les différentes étapes techniques de la création de site web; de la compréhension des besoins de l'utlisateurs, au développement front-end et back-end en passant par la maintenance.
             <br>
         Passionné et hautement organisé avec une expertise dans la planification de projets, l'amélioration des concepts et la vérification de la programmation.
         </p>
@@ -42,40 +46,44 @@
             <br><br>
             <hr> 
         
-           <div>
-            <label for="Travail"><a name=work></a><h3><em>Travail</em></h3></label>
+          
+            <label for="Travail"><a name=work></a><h2><em>Travail</em></h2></label>
             <br><br>
-            Mon travail se résume :
+           
+            <p class="montravail">Mon travail se résume :</p>
+            <div id="travail">
             <ul>
-                <li><p>Développement Web front-end</p></li>
+                <em><li><p>Développement Web front-end</p></li>
                 <li><p>Développement Web back-end</p></li>
                 <li><p>HTML</p></li>
                 <li><p>CSS</p></li>
                 <li><p>JavaScript</p></li>
                 <li><p>Optimisation des pages</p></li>
-                <li><p>Suivi des évolutions</p></li>
+                <li><p>Suivi des évolutions</p></li></em>
             </ul>
-    <br> <br>
-        <strong><em>En tant que développeur Fullstack, Voici <ins>deux exemples</ins> de pages Web sur lesquels j'ai eu a travaillé :</em></strong>
+    <br> <br><br>
+    
+       <p class="projet"><em>En tant que développeur Fullstack, Voici <ins>deux exemples</ins> de pages Web sur lesquels j'ai eu a travaillé :</em></p> </div>
         <br><br><br>
             <video controls autoplay height="645" width="780">
-                <source src="file:///Users/mac/Desktop/Enregistrement%20de%20l%E2%80%99e%CC%81cran%202022-12-19%20a%CC%80%2016.24.58.mov">
+            <source src="file:///Users/mac/Desktop/GoMyCode/Checkpoint/Portfolioo/Vide%CC%81os/Pre%CC%81sentation%20du%20site%20ANEP.mov">
             </video>
             <video controls autoplay height="550" width="850">
-                <source src="file:///Users/mac/Desktop/Enregistrement%20de%20l%E2%80%99e%CC%81cran%202022-12-19%20a%CC%80%2017.33.19.mov">
+                <source src="file:///Users/mac/Desktop/GoMyCode/Checkpoint/Portfolioo/Vide%CC%81os/Pre%CC%81sentation%20du%20site%20GMC.mov">
               
-            </video> <br><br> <p><em>En savoir plus sur :</em></p>  <a href="https://www.anepcompany.com/fr/accueil-m1.html"><button><ins>ANEP COMPANY...</ins></button></a>
-            <a href="https://gomycode.com/DZ-FR/home"><button><ins>GOMYCODE...</ins></button></a>
-            </div>
+            </video> <br><br> 
+            <p class="liensprojets"><em>En savoir plus sur :</em></p> <button class="buttonlink"><a class="liensversites" href="https://www.anepcompany.com/fr/accueil-m1.html" target="_blank">ANEP COMPANY...</a></button>
+            <button class="buttonlink"><a class="liensversites" href="https://gomycode.com/DZ-FR/home" target="_blank">GOMYCODE...</a></button></a>
+           
             <br> <br>
             <hr>
                         
             <br>
             
             <div>
-            <label for="CV"><a name="resume"></a><h4><em>CV</em></h4></label>
+            <label for="CV"><a name="resume"></a><h2><em>CV</em></h2></label>
             <br><br><br>
-            <p><ins>Expériences professionnelle</ins> :</p>
+            <p class="valeur"><ins>Expériences professionnelle</ins> :</p>
             <dl>
                 <dt>Développeur Web,</dt>
                 <dd><em><ins>YUX</ins>,Design agency, DAKAR</em></dd>
@@ -100,28 +108,29 @@
                 </ul>
             </dl>
             <br><br><br>
-            <p><ins>Compétences</ins> :</p>
+            <p class="valeur"><ins>Compétences</ins> :</p>
                <p>_Compréhension des besoins utilisateurs et création d’un cahier des charges.<br>
                 _Orchestration du déploiement d’applications via des outils de déploiement continu.<br>
                 _Maintenance, correctif de bugs et amélioration des sites ou applications web.<br>
                 _Excellente gestion du temps, respect scrupuleux des délais.<br>
                 _Adaptabilité, capacité à travailler sur des sujets/univers divers.</p>
-            
-            <ul>
-                <br><br><br><br>
-            <p> <ins>Langues parlées</ins> : <li><strong>Wolof</strong> / <em>Excellent</em></li>
-            <li><strong>Français</strong> / <em>Excellent</em></li>
-            <li><strong>Anglais</strong> / <em>Intermédiare</em></li>
-            </p>
+         
+                <ul class="langueparlée">
+            <p class="valeur"> <ins>Langues parlées</ins> :</p> <li><strong>Wolof</strong> <br> 
+                <progress value="100" max="100"></progress>
+            <li><strong>Français</strong>  <br>
+            <progress value="100" max="100"></progress>
+            <li><strong>Anglais</strong>  <br>
+            <progress value="35" max="100" ></progress>                                                                                                                                                                                                          
         </ul>
          
     </div> 
             <br><br><br><br>
             <hr> 
-            <div>
-            <label for="CONTACT"><a name="contact"></a><h5><em>Contact</em></h5></label>
-        
-            <p><ins>TÉLÉPHONE</ins>: 77-262-74-12<br> <ins>EMAIL</ins>: juniorpro0203@gmail.com</p>
+            <label for="CONTACT"><a name="contact"></a><h2><em>Contact</em></h2></label>
+            <div class="contact">
+            <p class="typecontact"><ins>TÉLÉPHONE</ins>: 77-262-74-12<br> </p>
+                <p class="typecontact"><ins>EMAIL</ins>:<a class="mailto2" href="mailto:juniorpro0203@gmail.com"> juniorpro0203@gmail.com</a></p>
 
         </div>
             
@@ -135,11 +144,14 @@
 
 
 
-<footer>
-    <div>
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEU6VZ////82Up4zUJ1UbKx4ibswTpyMmsQ5V6EtTJupss8nSJnN0+WVosgqSpo4U56eqcyDksDj5vBwgbb3+PxFXqNabqt9jb3S2OhidbC9xdy3v9l0hLjZ3etLY6bq7fTEyt4dQpdJYqekrs2uttK97JEgAAADFUlEQVR4nO3c2XLiMBBAUUZmM3IsFsNgSIAk/P83TsLzjCNbI3c3de9rqlw+BV7VZDIhIiIiIiIiIiIiIiIiIlJeCM4VxbzsrJDey8G50s/3h91ss3jp7LdJYii8262rbfPr545eem/753y9qWJwjypzwqJuT7E6i0JX7459fOaEvn3r5zMmLPy5r8+W0L9Gn15MCkO9GuAzJHSh9xFoS1hcrsOAVoTzdsghaEhYTAcDbQjdfjjQhDAshx6DRoShrhKAFoR+nQI0ICzaJKABYZlyEFoQ1p9pQPVCd0m4UJgQ+lsiULvQXVKB2oW+1ysZg8KwTAYqF5ZpF3sDQr99cqFLvJ3RL0y+2usXDnw1Y0YYUh58TQiL3X8Aql57Kvschs3xdF/9pftC8fphj3vSalZ6X5tbA/axJ5rtzhdBem+HVEeeaKq55s+po1DHAW/vJj+/yfdifdxX1OYX9LuwjxIejH5Fv3LTGOBJ8eXup+KEH056P4cXJby+S+9mQlHCUy29mwlFCddz6d1MKEq4sXsmjRTOEGoOIUL9IUSoP4QI9YcQof4QItQfQoT6Q4hQR27+78qYucRX37GFR7Jrb65ddBQz1Hbv2sCjpSixvEcgEitlhcN+cNenRnZxagThm+wK6ghC4TXiEYSr8tmFwstvIwhb2XX+EYR72St+fmEj6htDuBW+a8svPArPauQXnp9e+CI8jZJfKP38mF8ofDnML2wuwsOn2YVX6ena7MKt9PRpduHt6YUr6eHM7MKF9HBmduGr9OvU7MKp9BR4bmEjDcwulJ9zzy2U/+1hbqH0s1N+4afsq8QRhPKT/LmFB+kb7+xC6Tua7ELhdacRhOLPTtmFCv7ZQOY14LP4xWISlh2FqFkM17UF8VPpF7Hjb3HTJl2nSwXAzp5jnqYrhAj1hxCh/hAi1B9ChPpDiFB/CBHqDyFC/SFEqD+ECPWHEKH+ECLUH0KE+kOIUH8IEeoPIUL9IUSoP4QI9YcQof4QItQfQoT6Q4hQfwgR6g8hQv0hRKg/hAj1hxCh/hAi1B9ChD36A+1ASVvVoq0WAAAAAElFTkSuQmCC" height="30" width="30"> : <br>
-<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAN8AAADiCAMAAAD5w+JtAAAAb1BMVEX///8OdrMAdLIAcbHp9Pmkx982iL34/P4Abq8aerUAcrGUvNkAaq2vzuNxo8ry+Pvi7/ZPlMMngbmdwNuItNTU5fDb6fK81OZyqc7h6vLI3u1EkcIegbo4jL9fnsi41OaArtGgxd6NuNfO3uywz+Mro0EiAAAFXElEQVR4nO2dC5OiOBRGhwQlBFSkfbVv7fn/v3GR7d3t7gH5LriJsb5TXTPlVEHfMyEhj5v46xchhBBCCCGEEEJCZ/s23ZX7/eGYnWa+Y3k0yelojLFWVVht8sNb7DukB5JcSmNV9AWl9abwHdajOJXmm9zfhlYvEt+RPYJk2mBXG5rx0ndwwylK3Wh3w+qJ7/CGsoyaC++zCPPMd4DDWN3Vq8gvvkMcwmxv7+tFkVn7DnIA8069inffUfbmYgA9O/cdZl9i3VH5Pp/QUBvRDfJ0Vo1oGuZ7vrBQ8VUFGGYbukBqX12Ae9+h9iEZg8VXvQS3voPtwRItvqoJPfsOtgfX9n7nH6S+g+3BEX48qxYmvNFuUkr8wquAsZL4hfeKj/HmpfJ78x2umPdc4KcXvsMVs3pxv0LkF94wPkZ7n7VfeO3LbC8ovxAH8dDY/R+/AOd6z7ifUr6D7cFa0L8++g62B3GKP54n38H2YYMOIJT1HWovlqhfgG/3GrAFVTq80VENOII3gRYfWANVGe5qddrdR1MBjm3/ZdX9hJrwutZf6HzJm43vEIcxuV8FTYg9l2+sbftbQpmz7/CGs2pdgLd65Du4h3DOm4pQ5bsAR0WNFEf9YylQWVMGOKZtZbUotbFKRfWPNunxlexuJMvseCjTKN2P54t1oD3OLmZxEcdhrtYSQgghhBBCXp/4Yz26njfTzeZ8zkbr7TLc2eSfJNtsp0yFttpaXf15+2DsYTP68B3bYOLLvBJrSqK6zR8Ys8tWQ3/F7JohXFv/My/Q9Q0PXHKam47kb6vz8jpMMc6NBmjf4lEC1xv9xyxcnDVt6GooSG3mQ6aBYmyBs30WFMkAVtEPvyRLsbz9+moz/h2W3yQV5NXWhoe+jY0Hv3gOPZnfsGbTb8rLvd9EC5KK/sOkvTYiOvfb5OLC+7xJ3icBzrHfbCdJqf1xF3N9dr9iLGtYftBjqc6pX5H2qnpDBF36xUAqQwe5NAncoV9SDiy9G7mwM+PQT5Js2n4rYSKVOz94q9p97O45/baP0ZPuw3DlJ9oK1IEkJcCRX/ygp/OGnT6dX3qS7HTqwgh6ok78qlbvgXqiVHA3fg/G4HMWQfppPOEvSL/IwBOkgfrBSXFh+qnytf3wFiZQP3gzYqB+avzifmgnNFA/eLdlqH7oKz5UP7QCevNTnyuZ9dKm/B5oBfTjV7mNp9fJ9r1iecqmYyNekjDYiosPP5vvRsW35ZKkyPbCATC4Z8i9n8qPjZ2PSSSaXwNH8c79dNk2+k6OkiIEj2Rz7Xd3r1YmEUyhMZJjv44loDfBgRjYeUJu/TpXuOD93GgD6tRPd7YJyRhuZLDzhFz6Ibt4P+AqiA2RXPpBu3iPaAHq85P5YdOW8IkD2O0c+oHTzjuwALGFJHd+6MLWCKyB2ByTOz/0AJICXaqAjiR16IfpwXdU+qn88EWRBdjC5E/lhx/vhx4qlCMdNGd+UDQ1BeqHzPG68pOcbwsuFkLvG1d+kjVJ8JZQd8iVnxbkxoFdtKfyk5weugD9kCleZ36CBGOwBwN1GJz5CdKqJuH5qUiw5eYUoJ/kgCowlcsguwZc+Y0F6e/omWVIk+XIT/QFEuCxuc/kpyR+4LG5z+QnOl0zDtBPlPNHP/o9sd+MfvSjH/3oRz/60Y9+9KMf/ehHP/rRj370ox/96Ec/+tGPfvSjH/3oRz/60Y9+9KMf/ehHP/rRj370ox/96Ec/+tGPfvSjH/0c+an65/Ovhg/q3oHTY9V25dd/Fvq1xvH1A+anUgTb6neAro9EfgaLCfrWtQRj6PWibw/7H25JCCGEEEIIIeSl+AuA1454i17EQQAAAABJRU5ErkJggg==" height="30" width="30"> : 
+<footer class="footer"> <br> <br>
+    <div class="icon">
+<button><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAb1BMVEU6VZ////82Up4zUJ1UbKx4ibswTpyMmsQ5V6EtTJupss8nSJnN0+WVosgqSpo4U56eqcyDksDj5vBwgbb3+PxFXqNabqt9jb3S2OhidbC9xdy3v9l0hLjZ3etLY6bq7fTEyt4dQpdJYqekrs2uttK97JEgAAADFUlEQVR4nO3c2XLiMBBAUUZmM3IsFsNgSIAk/P83TsLzjCNbI3c3de9rqlw+BV7VZDIhIiIiIiIiIiIiIiIiIlJeCM4VxbzsrJDey8G50s/3h91ss3jp7LdJYii8262rbfPr545eem/753y9qWJwjypzwqJuT7E6i0JX7459fOaEvn3r5zMmLPy5r8+W0L9Gn15MCkO9GuAzJHSh9xFoS1hcrsOAVoTzdsghaEhYTAcDbQjdfjjQhDAshx6DRoShrhKAFoR+nQI0ICzaJKABYZlyEFoQ1p9pQPVCd0m4UJgQ+lsiULvQXVKB2oW+1ysZg8KwTAYqF5ZpF3sDQr99cqFLvJ3RL0y+2usXDnw1Y0YYUh58TQiL3X8Aql57Kvschs3xdF/9pftC8fphj3vSalZ6X5tbA/axJ5rtzhdBem+HVEeeaKq55s+po1DHAW/vJj+/yfdifdxX1OYX9LuwjxIejH5Fv3LTGOBJ8eXup+KEH056P4cXJby+S+9mQlHCUy29mwlFCddz6d1MKEq4sXsmjRTOEGoOIUL9IUSoP4QI9YcQof4QItQfQoT6Q4hQR27+78qYucRX37GFR7Jrb65ddBQz1Hbv2sCjpSixvEcgEitlhcN+cNenRnZxagThm+wK6ghC4TXiEYSr8tmFwstvIwhb2XX+EYR72St+fmEj6htDuBW+a8svPArPauQXnp9e+CI8jZJfKP38mF8ofDnML2wuwsOn2YVX6ena7MKt9PRpduHt6YUr6eHM7MKF9HBmduGr9OvU7MKp9BR4bmEjDcwulJ9zzy2U/+1hbqH0s1N+4afsq8QRhPKT/LmFB+kb7+xC6Tua7ELhdacRhOLPTtmFCv7ZQOY14LP4xWISlh2FqFkM17UF8VPpF7Hjb3HTJl2nSwXAzp5jnqYrhAj1hxCh/hAi1B9ChPpDiFB/CBHqDyFC/SFEqD+ECPWHEKH+ECLUH0KE+kOIUH8IEeoPIUL9IUSoP4QI9YcQof4QItQfQoT6Q4hQfwgR6g8hQv0hRKg/hAj1hxCh/hAi1B9ChD36A+1ASVvVoq0WAAAAAElFTkSuQmCC" height="30" width="30"></button>
+<button><img src="data:image/png;base64,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" height="30" width="30"> </button> 
+     <br>                                                                                                                                                                
 </div>
+<p class="droitsreserves">© 2022 Adiouma Ousmane DIALLO, Tous droits réservés.</p>  
+ 
 </footer>
 
 </html>
